@@ -1,4 +1,4 @@
-# Verloop Assignment
+# Longitude-Lattitude Extraction
 
 This contains a post endpoint that returns longitude and latitude for the address passed. The project contains 6 test cases to validate
 the application.
@@ -20,7 +20,7 @@ environment.
 7. Run ```pip freeze``` command to check packages installed.
 
 ## Steps to hit and run endpoints
-#### Prerequisite - Insert GCP key with Maps Embed API enabled into config.json(location-```verloop_assignment/src/config.json```) file
+#### Prerequisite - Insert GCP key with Maps Embed API enabled into config.json(location-```src/config.json```) file
 This file contains the json in which the user can insert GCP key that would be passed into required URL.
 1. After enabling the virtual environment, go cd to src folder and run ```flask run``` command to start the flask server.
 2. Use postman to hit endpoint.
