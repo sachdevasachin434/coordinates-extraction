@@ -1,4 +1,4 @@
-# Longitude-Lattitude Extraction
+# Longitude-Latitude Extraction
 
 This contains a post endpoint that returns longitude and latitude for the address passed. The project contains 6 test cases to validate
 the application.
