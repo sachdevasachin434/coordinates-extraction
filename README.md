@@ -13,8 +13,8 @@ Below are the steps to set up the project for evaluation:
 1. Open command prompt(Windows) or terminal(Linux) and go to project directory.
 2. Make sure you have virtualenv installed on your system.
 3. If not already installed, run ```pip install virtualenv``` to install virtualenv on your system.
-4. Create a virtual environment using ```virtualenv verloop_env```.
-5. Run ```.\verloop_env\Scripts\activate``` command to enable virtualenv
+4. Create a virtual environment using ```virtualenv v_env```.
+5. Run ```.\v_env\Scripts\activate``` command to enable virtualenv
 environment.
 6. Install project requirements from requirements.txt using ```pip install -r requirements.txt``` command.
 7. Run ```pip freeze``` command to check packages installed.
@@ -41,7 +41,7 @@ The API returns 4 types of output:
 4. JSON with some error - Returns XML with error_message.
 
 ### Run Test Cases
-Go to project directory ```parent_directory/verloop_assignment``` and run ```pytest``` to run test cases.
+Go to project directory and run ```pytest``` to run test cases.
 
 ### Run Pylint
 Go to project directory and run pylint src/app to check linting of the code.
